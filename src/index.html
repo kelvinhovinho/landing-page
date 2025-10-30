@@ -6,8 +6,28 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <!-- navbar -->
+     <header>
+        <nav class="max-w-[1440px] container mx-auto p-4 flex items-center justify-between">
+            <a href=".">
+                <div class="flex text-2xl font-bold items-center gap-2">
+                <img src="../img/logo.png" alt="logo" class="h-8">
+                <span class="text-primary-text">LaslesVPN</span>
+            </div>
+            </a>
+            <ul class="hidden sm:flex space-x-8">
+                <li><a href="#" class="menu-link">About</a></li>
+                <li><a href="#" class="menu-link">Features</a></li>
+                <li><a href="#" class="menu-link">Pricing</a></li>
+                <li><a href="#" class="menu-link">Testimonials</a></li>
+                <li><a href="#" class="menu-link">Help</a></li>
+            </ul>
+
+            <div class="space-x-4 hidden sm:inline-flex">
+                <button class="text-gray-600 hover:text-primary">Sign In</button>
+                <button class="bg-white hover:bg-red-600 hover:text-white text-primary border px-4 py-2 rounded-full cursor-pointer">Sign Up</button>
+            </div>
+        </nav>
+     </header>
 </body>
 </html>
