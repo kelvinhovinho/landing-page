@@ -8,10 +8,17 @@
     --color-secondary:rgba(245,56,56,.35);
     --color-primary-text:#4F5665;
     --color-heading-text:#0B132A;
-
+    --color-kelvin:yellow;
+    --screen-full:1140px;
     --font-primary:"Rubik", sans-serif;
 }
 
 .menu-link{
     @apply text-gray-600 hover:text-primary;
+}
+
+@layer base{
+    body{
+        @apply w-full container mx-auto;
+    }
 }
